@@ -10,4 +10,6 @@ CSS, & client-side JS.
 - No dev tools except Git, an editor, and a web browser
 
 ## Goals
-- [ ] Show the fundamental particles
+- [x] Show the fundamental particles
+
+![Standard model](screenshots/standard-model.png)

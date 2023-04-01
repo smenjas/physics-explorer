@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background: white;
+    color: black;
+}
+a {
+    color: #005;
+}
+a:visited {
+    color: #505;
+}
+
+th, td {
+    border-radius: 0.7rem;
+    padding: 1rem;
+}
+th {
+    border: 4px solid #333;
+}
+
+td.empty {
+    border: none;
+}
+td.quark {
+    border: 4px solid purple;
+}
+td.lepton {
+    border: 4px solid darkgreen;
+}
+td.boson {
+    border: 4px solid darkorange;
+}
+td.higgs {
+    border: 4px solid gold;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+    body {
+        background: black;
+        color: white;
+    }
+    a {
+        color: #aaf;
+    }
+    a:visited {
+        color: #faf;
+    }
+    th, td {
+        border-color: #ccc;
+    }
+}
